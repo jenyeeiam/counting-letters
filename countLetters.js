@@ -6,8 +6,6 @@ function countLetters(input) {
   var joinedWord = splitWords.join("").toLowerCase();
   var splitLetters = joinedWord.split("");
 
-
-
   for (var i = 0; i < splitLetters.length; i++){
     if (characters.hasOwnProperty(splitLetters[i]) === false){
       characters[splitLetters[i]] = 1;
